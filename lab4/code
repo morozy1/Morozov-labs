@@ -1,0 +1,150 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usecolortheme{dolphin}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+\usepackage[russian]{babel}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{tabularx}
+
+% Определяем цвета
+\definecolor{darkblue}{rgb}{0,0,0.6}
+
+% Убираем футер и прогресс-бар
+\setbeamertemplate{footline}{}
+\setbeamertemplate{navigation symbols}{}
+
+% Настройка шрифтов
+\setbeamerfont{title}{size=\large, series=\bfseries}
+\setbeamerfont{frametitle}{size=\normalsize, series=\bfseries}
+\setbeamercolor{structure}{fg=darkblue}
+
+% Данные презентации
+\title{История физико-математического факультета\\ОГУ им. И.С. Тургенева}
+\author{Морозов Денис Владиславович}
+\date{4 мая 2026}
+
+\setbeamertemplate{title page}{
+  \vbox{}
+  \vfill
+  \centering % Центрируем всё содержимое слайда
+  {\usebeamerfont{title}\inserttitle\par}
+  \vspace*{0.35cm}
+  {\usebeamerfont{author}\insertauthor\par}
+  \vspace*{0.35cm}
+  {\usebeamerfont{date}\insertdate\par}
+  \vspace*{0.3cm}
+  \includegraphics[width=0.45\textwidth]{qw.png}
+  \vfill
+}
+
+\begin{document}
+
+% Титульный слайд
+\begin{frame}
+    \titlepage
+\end{frame}
+
+% Слайд 1: Символика факультета
+\begin{frame}{Символика факультета}
+    \begin{columns}[T]
+        \begin{column}{0.55\textwidth}
+            \textbf{Элементы логотипа:}
+            \begin{itemize}
+                \item \textbf{Атом} — символ физических исследований и ядерных технологий
+                \item \textbf{Математические символы} ($\int$, $\sum$, $\infty$) — основа точных наук
+                \item \textbf{Геометрические фигуры} — гармония формы и содержания
+                \item \textbf{Сине-белая гамма} — академичность, строгость, интеллект
+            \end{itemize}
+            \vspace{0.3cm}
+            {\footnotesize Логотип отражает единство физики и математики — двух фундаментальных наук}
+        \end{column}
+        \begin{column}{0.4\textwidth}
+            \centering
+            \includegraphics[width=0.9\textwidth]{logotype.jpg}
+            \vspace{0.2cm}
+            {\footnotesize Логотип ФизМата ОГУ}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% Слайд 2: Основание
+\begin{frame}{Основание факультета}
+    \begin{itemize}
+        \item \textbf{5 августа 1931 г.} — СНК РСФСР распорядился создать в Орле индустриально-педагогический институт
+        \item \textbf{16 октября 1931 г.} — первые 121 студент и 11 преподавателей начали занятия
+        \item \textbf{1932 г.} — физико-технический факультет преобразован в \textbf{физико-математический}
+        \item \textbf{Июнь 1935 г.} — первый выпуск: 45 специалистов (26 математиков)
+    \end{itemize}
+\end{frame}
+
+% Слайд 3: Ключевые даты (ИСПРАВЛЕННЫЙ)
+\begin{frame}{Ключевые даты}
+    \centering
+    \renewcommand{\arraystretch}{1.0} % Уплотняем строки таблицы
+    \begin{tabularx}{0.9\textwidth}{@{}lX@{}} % Ограничиваем ширину, чтобы не вылезало за поля
+        \toprule
+        \textbf{Год} & \textbf{Событие} \\
+        \midrule
+        1957 & Переезд в новое здание на ул. Комсомольская, 95 \\
+        1994 & ОГПИ $\rightarrow$ Орловский государственный педагогический университет \\
+        1996 & Статус \textbf{Орловского государственного университета} \\
+        2001 & Открыта учебная обсерватория с телескопом Meade 10LX50 \\
+        2007 & 75-летие факультета: 634 студента, 59 преподавателей \\
+        \bottomrule
+    \end{tabularx}
+    
+    \vspace{0.2cm}
+    \includegraphics[width=0.56\textwidth]{57.png} % Уменьшили ширину фото, чтобы влезало снизу
+\end{frame}
+
+% Слайд 4: Структура
+\begin{frame}{Современная структура}
+    \begin{columns}[T]
+        \begin{column}{0.55\textwidth}
+            \textbf{7 кафедр:}
+            \begin{itemize}
+                \item Математического анализа и ДУ
+                \item Алгебры и математических методов в экономике
+                \item Геометрии и методики преподавания математики
+                \item Информатики
+                \item Экспериментальной и теоретической физики
+                \item Высшей математики
+                \item Математики и прикладных ИТ
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.4\textwidth}
+            \centering
+            \includegraphics[width=0.9\textwidth]{111.jpg}
+            \vspace{0.2cm}
+            {\footnotesize }
+        \end{column}
+    \end{columns}
+\end{frame}
+
+% Слайд 5: Достижения
+\begin{frame}{Гордость факультета}
+    \begin{itemize}
+        \item \textbf{Выпускники:} космонавты, учёные РАН, учителя года, руководители в сфере образования
+        \item \textbf{Наука:} публикации в Scopus/WoS, гранты РНФ, международные конференции
+        \item \textbf{Традиции:} студенческие олимпиады, НСО, спортивные победы, альпинизм (Эльбрус, 1959)
+        \item \textbf{Инфраструктура:} учебная обсерватория, компьютерные классы, лаборатории
+    \end{itemize}
+\end{frame}
+
+% Финальный слайд
+\begin{frame}
+    \centering
+    \vspace{1cm}
+    {\Large \textbf{Спасибо за внимание!}}
+    
+    \vspace{1.5cm}
+    \includegraphics[width=0.3\textwidth]{logo.jpg}
+    
+    \vspace{0.5cm}
+    {\small Физико-математический факультет\\ОГУ им. И.С. Тургенева\\[0.3cm]
+    phys-math.ru}
+\end{frame}
+
+\end{document}
